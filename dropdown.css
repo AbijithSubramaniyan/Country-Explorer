@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background-color: #eee;
+}
+#main-cont {
+  width: 502px;
+  margin-left: 460px;
+  margin-bottom: 240px;
+  padding: 0;
+  position : fixed;
+  bottom:0;
+  z-index: 99;
+}
+#flag-cont {
+  height: 252px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+#flag-cont img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#myInput {
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+@media (max-width: 768px) {
+  body { font-size: 12px; }
+  #main-cont { width: 342px; }
+  #flag-cont { height: 172px; }
+  #info-cont select { font-size: 12px; font-weight: 600; }
+}
+#myVid{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

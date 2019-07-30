@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Details</title>
+    <style>
+      button{
+        color:black;
+        font-size:20px;
+        background-color: #4CAF50;
+      }
+      body{
+        background-image:url("CSS_rsrc/bg.jpeg");
+      }
+      .maindiv{
+        padding-top:200px;
+      }
+    </style>
+  </head>
+<body onload="getdetails()">
+  <div class="maindiv">
+    <p style="text-align:center"><b>Capital: </b><span id="capital"></span></p>
+    <p style="text-align:center"><b>Calling code: </b><span id="calling-code"></span></p>
+    <p style="text-align:center"><b>Population: </b><span id="population"></span></p>
+    <p style="text-align:center"><b>Currencies: </b><span id="currencies"></span></p>
+    <p style="text-align:center"><b>Region: </b><span id="region"></span></p>
+    <p style="text-align:center"><b>Subregion: </b><span id="subregion"></span></p>
+    <br>
+    <center>
+      <button onclick="goBack()">Go Back</button>
+      </center>
+  </div>
+
+  </body>
+  <script src="second.js" charset="utf-8"></script>
+</html>
